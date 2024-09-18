@@ -1,25 +1,39 @@
-## Node Version
+# Next.js & TypeScript Tutorial
 
-The minimum Node.js version has been bumped from 16.14 to 18.17, since 16.x has reached end-of-life.
+**Project Overview**:  
+This project is a learning exercise built with Next.js and TypeScript. It demonstrates the integration of modern web development practices, including server-side rendering, API routes, and dynamic routing, while utilizing TypeScript for type safety. The project is designed to enhance understanding of Next.js’s new App Router, layouts, metadata API, and client/server components.
 
-## Create Next App
+The project is part of an in-depth tutorial focused on Next.js and TypeScript to improve my skills in full-stack development. It showcases how to build scalable, high-performance web applications while following best practices for both frontend and backend development. The project is part of John Smilga's React course, which I completed to enhance my skills in React development. For more information about the course, visit [John Smilga's Website](https://www.johnsmilga.com).
 
-```sh
-npx create-next-app@latest appName
-```
+---
 
-## Folder Structure
+### Project Goals:
 
-- app folder - where we will spend most of our time
-  - setup routes, layouts, loading states, etc
-- node_modules - project dependencies
-- public - static assets
-- .gitignore - sets which will be ignored by source control
-- bunch of config files (will discuss as we go)
-- in package.json look scripts
-- 'npm run dev' to spin up the project on http://localhost:3000
+- **Learn the Fundamentals of Next.js**: Gain proficiency with Next.js routing, including dynamic and nested routes, layout components, and the App Router structure.
+- **Leverage TypeScript for Type Safety**: Integrate TypeScript to ensure better code quality and maintainability through static typing.
+- **Implement Dynamic Routing**: Set up dynamic routes to handle URL parameters, ensuring a flexible, scalable routing system.
 
-```sh
+- **Understand Server-Side and Client-Side Rendering**: Learn the difference between server-side and client-side rendering and understand when to use each in a Next.js project.
+
+- **Create and Manage API Routes**: Build API endpoints using Next.js’s API routes, including data fetching and server-side processing.
+
+- **Integrate Metadata for SEO**: Use Next.js’s Metadata API to enhance SEO and social media shareability through dynamic metadata management.
+
+- **Use Tailwind CSS for Styling**: Implement Tailwind CSS for efficient and scalable styling throughout the project, ensuring a clean and responsive user interface.
+
+- **Work with Layout and Template Components**: Understand how layouts and templates can be used to manage shared UI elements across pages, improving performance and code reusability.
+
+- **Fetch Data Efficiently**: Utilize the native fetch API extended by Next.js for efficient server-side data fetching and caching.
+
+- **Loading and Error Handling**: Implement custom loading and error components to provide a smooth and resilient user experience.
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
 npm run dev
 ```
 
