@@ -3,7 +3,7 @@
 **Project Overview**:  
 This project is a learning exercise built with Next.js and TypeScript. It demonstrates the integration of modern web development practices, including server-side rendering, API routes, and dynamic routing, while utilizing TypeScript for type safety. The project is designed to enhance understanding of Next.js’s new App Router, layouts, metadata API, and client/server components.
 
-The project is part of an in-depth tutorial focused on Next.js and TypeScript to improve my skills in full-stack development. It showcases how to build scalable, high-performance web applications while following best practices for both frontend and backend development.
+The project is part of an in-depth tutorial focused on Next.js and TypeScript to improve my skills in full-stack development. It showcases how to build scalable, high-performance web applications while following best practices for both frontend and backend development. The project is part of John Smilga's React course, which I completed to enhance my skills in React development. For more information about the course, visit [John Smilga's Website](https://www.johnsmilga.com).
 
 ---
 
@@ -28,6 +28,7 @@ The project is part of an in-depth tutorial focused on Next.js and TypeScript to
 - **Fetch Data Efficiently**: Utilize the native fetch API extended by Next.js for efficient server-side data fetching and caching.
 
 - **Loading and Error Handling**: Implement custom loading and error components to provide a smooth and resilient user experience.
+
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
