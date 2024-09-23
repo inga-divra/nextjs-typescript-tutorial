@@ -1,5 +1,22 @@
-const UsersList = () => {
-  return <h1 className='text-xl'>Users List</h1>;
+import { fetchUsers } from '@/utils/actions';
+
+const UsersList = async () => {
+  const users = await fetchUsers();
+  return (
+    <div className='mt-4'>
+      {users.length ? (
+        <div>
+          {users.map((user) => (
+            <h4 key={user.id} className='capitalize text-lg'>
+              {user.firstName} {user.lastName}
+            </h4>
+          ))}
+        </div>
+      ) : (
+        <p>No users found...</p>
+      )}
+    </div>
+  );
 };
 
 export default UsersList;
