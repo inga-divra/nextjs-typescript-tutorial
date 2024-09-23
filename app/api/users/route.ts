@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
 import { fetchUsers, saveUser } from '@/utils/actions';
 
 export const GET = async (request: NextRequest) => {

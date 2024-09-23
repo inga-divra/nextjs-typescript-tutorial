@@ -1,8 +1,6 @@
 'use server';
-import { log } from 'console';
 import { readFile, writeFile } from 'fs/promises';
 import { revalidatePath } from 'next/cache';
-import { redirect } from 'next/navigation';
 
 type User = {
   id: string;

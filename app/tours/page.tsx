@@ -1,5 +1,3 @@
-import { log } from 'console';
-import { resolve } from 'path';
 import Link from 'next/link';
 import Image from 'next/image';
 const url = 'https://www.course-api.com/react-tours-project';
