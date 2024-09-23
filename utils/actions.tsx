@@ -1,4 +1,5 @@
 'use server';
+import { log } from 'console';
 import { readFile, writeFile } from 'fs/promises';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
@@ -9,8 +10,11 @@ type User = {
   lastName: string;
 };
 
-export const createUser = async (formData: FormData) => {
+export const createUser = async (prevState: any, formData: FormData) => {
   'use server';
+  console.log(prevState);
+
+  await new Promise((resolve) => setTimeout(resolve, 3000));
   const firstName = formData.get('firstName') as string;
   const lastName = formData.get('lastName') as string;
   /*   const rawData = Object.fromEntries(formData);
@@ -19,12 +23,15 @@ export const createUser = async (formData: FormData) => {
 
   try {
     await saveUser(newUser);
+    revalidatePath('/actions');
     //some logic
+    return 'user created successfully...';
   } catch (error) {
     console.log(error);
+    return 'failed to create a user...';
   }
-  //revalidatePath('/actions');
-  redirect('/');
+
+  //redirect('/');
 };
 
 export const fetchUsers = async (): Promise<User[]> => {
