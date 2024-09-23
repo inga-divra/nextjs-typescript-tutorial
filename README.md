@@ -1,4 +1,4 @@
-# Next.js & TypeScript Tutorial
+# Next.js & TypeScript Tutorial https://nextjs-tut-ingady.netlify.app/
 
 **Project Overview**:  
 This project is a learning exercise built with Next.js and TypeScript. It demonstrates the integration of modern web development practices, including server-side rendering, API routes, and dynamic routing, while utilizing TypeScript for type safety. The project is designed to enhance understanding of Next.js’s new App Router, layouts, metadata API, and client/server components.
